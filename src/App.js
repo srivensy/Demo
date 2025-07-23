@@ -1,23 +1,26 @@
 // import Firstcomponent from "./Firstcomponent";
 // import Secondcomponent from "./Secondcomponent";
-import Usestate from "./Usestate";
+import Ternaryoperator from "./Ternaryoperator";
+// import Usestate from "./Usestate";
 
 function App() {
 
-// let object = {
+// let student_info = {
 //     id:9,
 //     name:'Bhagya Sree',
 //     branch:'BCA-AI',
-//     Place:'Madanapalle'
+//     place:'Madanapalle'
 //   }
+
+// let array = ["Apple","Mango","Strabery","Grape","Banana","Guava","Cherry",100,55.7,true]
 
   return (
     <div>
-      <Usestate/>
-      {/* <h1>This App component</h1> */}
-      {/* <h2>{object.name}</h2> */}
-      {/* <Firstcomponent object={{id:19,name:'Bagya sree',branch:'BCA-AI',place:'Madanapalle'}}/>
-      <Secondcomponent/> */}
+       {/* <Usestate/>
+       <h1>This App component</h1>  */}
+      {/* <Firstcomponent student={student_info}/> 
+      <Secondcomponent fruits={array}/> */}
+      <Ternaryoperator/>
     </div> 
   );
 }
