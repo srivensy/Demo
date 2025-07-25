@@ -1,6 +1,7 @@
 // import Firstcomponent from "./Firstcomponent";
 // import Secondcomponent from "./Secondcomponent";
 import Form from "./Form";
+import Getdata from "./Getdata";
 import Inc_dec from "./Inc_dec";
 import React_Form from "./React_Form";
 // import Ternaryoperator from "./Ternaryoperator";
@@ -26,7 +27,8 @@ function App() {
       <Secondcomponent fruits={array}/> */}
       {/* <Ternaryoperator/> */}
       {/* <Inc_dec/> */}
-      <React_Form/>
+      {/* <React_Form/> */}
+      <Getdata/>
   
     </div> 
   );
