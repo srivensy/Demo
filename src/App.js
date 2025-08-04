@@ -4,12 +4,12 @@ import Form from "./Form";
 import Getdata from "./Getdata";
 import Inc_dec from "./Inc_dec";
 import React_Form from "./React_Form";
+import Registration from "./Registration";
 // import Ternaryoperator from "./Ternaryoperator";
 // import Usestate from "./Usestate";
 
 
 function App() {
-
 // let student_info = {
 //     id:9,
 //     name:'Bhagya Sree',
@@ -28,7 +28,8 @@ function App() {
       {/* <Ternaryoperator/> */}
       {/* <Inc_dec/> */}
       {/* <React_Form/> */}
-      <Getdata/>
+      {/* <Getdata/> */}
+      <Registration/>
   
     </div> 
   );

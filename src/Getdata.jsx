@@ -16,7 +16,6 @@ const Getdata = () => {
                     <h2 style={{color:"green"}}>id:{item.id}</h2>
                     <h3 style={{color:"#8B008B"}}>title:{item.title}</h3>
                     <h4 style={{color:"#FF1493"}}>body:{item.body}</h4>
-
                 </ul>
             ))
         }
