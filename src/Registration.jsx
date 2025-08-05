@@ -12,8 +12,6 @@ const Registration = () => {
         password:''
     })
 
-    console.log(data)
-
     const {firstname,lastname,dob,phone,email,password} = data
 
     const inputhandeler = (event) =>{
