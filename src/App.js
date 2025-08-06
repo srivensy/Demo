@@ -5,6 +5,7 @@ import Getdata from "./Getdata";
 import Inc_dec from "./Inc_dec";
 import React_Form from "./React_Form";
 import Registration from "./Registration";
+import RegistrationPage from "./RegistrationPage";
 // import Ternaryoperator from "./Ternaryoperator";
 // import Usestate from "./Usestate";
 
@@ -29,7 +30,8 @@ function App() {
       {/* <Inc_dec/> */}
       {/* <React_Form/> */}
       {/* <Getdata/> */}
-      <Registration/>
+      {/* <Registration/> */}
+      <RegistrationPage/>
   
     </div> 
   );
