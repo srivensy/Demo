@@ -8,13 +8,15 @@ const RegistrationPage = () => {
     const [password,setPassword] = useState("");
 
 
-    console.log(fname,lname,email,password)
+    // console.log(fname,lname,email,password)
+
+    const data = {fname,lname,email,password}
+    console.log(data)
 
     const Submithandler = (event) =>{
         event.preventDefault();
       
     }
-
 
   return (
     <div>

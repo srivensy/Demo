@@ -8,6 +8,13 @@ import Registration from "./Registration";
 import RegistrationPage from "./RegistrationPage";
 // import Ternaryoperator from "./Ternaryoperator";
 // import Usestate from "./Usestate";
+import About from "./About";
+import Home from "./Home";
+import Contact from "./Contact";
+import Services from "./Services";
+// import { Route,Router } from "react-router-dom";
+import { Routes,Route } from "react-router-dom";
+import Navbar2 from "./Navbar2";
 
 
 function App() {
@@ -31,8 +38,15 @@ function App() {
       {/* <React_Form/> */}
       {/* <Getdata/> */}
       {/* <Registration/> */}
-      <RegistrationPage/>
-  
+      {/* <RegistrationPage/> */}
+      <Navbar2/>
+      <Routes>
+        <Route path="/about" element = {<About/>}/>
+        <Route path="/home" element ={<Home/>}/>
+        <Route path="/contact" element = { <Contact/>}/>
+        <Route path="/service" element = {<Services/>}/>
+      </Routes>
+
     </div> 
   );
 }
